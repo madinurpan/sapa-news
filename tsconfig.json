@@ -1,6 +1,14 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
+  "angularCompilerOptions": {
+    "disableTypeScriptVersionCheck": true
+  },
+  "configurations": {
+    "development": {
+        "buildOptimizer": false
+    }
+},
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -16,5 +24,6 @@
       "es2018",
       "dom"
     ]
-  }
+  },
+
 }
